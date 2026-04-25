@@ -1,0 +1,3 @@
+/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles/sensor_alert_system.dir
+/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles/edit_cache.dir
+/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles/rebuild_cache.dir
