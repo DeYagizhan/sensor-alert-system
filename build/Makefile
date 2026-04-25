@@ -129,6 +129,78 @@ sensor_alert_system/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/build
 .PHONY : sensor_alert_system/fast
 
+src/core/AlertSeverity.o: src/core/AlertSeverity.cpp.o
+.PHONY : src/core/AlertSeverity.o
+
+# target to build an object file
+src/core/AlertSeverity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o
+.PHONY : src/core/AlertSeverity.cpp.o
+
+src/core/AlertSeverity.i: src/core/AlertSeverity.cpp.i
+.PHONY : src/core/AlertSeverity.i
+
+# target to preprocess a source file
+src/core/AlertSeverity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.i
+.PHONY : src/core/AlertSeverity.cpp.i
+
+src/core/AlertSeverity.s: src/core/AlertSeverity.cpp.s
+.PHONY : src/core/AlertSeverity.s
+
+# target to generate assembly for a file
+src/core/AlertSeverity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.s
+.PHONY : src/core/AlertSeverity.cpp.s
+
+src/core/SensorReading.o: src/core/SensorReading.cpp.o
+.PHONY : src/core/SensorReading.o
+
+# target to build an object file
+src/core/SensorReading.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o
+.PHONY : src/core/SensorReading.cpp.o
+
+src/core/SensorReading.i: src/core/SensorReading.cpp.i
+.PHONY : src/core/SensorReading.i
+
+# target to preprocess a source file
+src/core/SensorReading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.i
+.PHONY : src/core/SensorReading.cpp.i
+
+src/core/SensorReading.s: src/core/SensorReading.cpp.s
+.PHONY : src/core/SensorReading.s
+
+# target to generate assembly for a file
+src/core/SensorReading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s
+.PHONY : src/core/SensorReading.cpp.s
+
+src/core/SensorType.o: src/core/SensorType.cpp.o
+.PHONY : src/core/SensorType.o
+
+# target to build an object file
+src/core/SensorType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o
+.PHONY : src/core/SensorType.cpp.o
+
+src/core/SensorType.i: src/core/SensorType.cpp.i
+.PHONY : src/core/SensorType.i
+
+# target to preprocess a source file
+src/core/SensorType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.i
+.PHONY : src/core/SensorType.cpp.i
+
+src/core/SensorType.s: src/core/SensorType.cpp.s
+.PHONY : src/core/SensorType.s
+
+# target to generate assembly for a file
+src/core/SensorType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.s
+.PHONY : src/core/SensorType.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sensor_alert_system"
+	@echo "... src/core/AlertSeverity.o"
+	@echo "... src/core/AlertSeverity.i"
+	@echo "... src/core/AlertSeverity.s"
+	@echo "... src/core/SensorReading.o"
+	@echo "... src/core/SensorReading.i"
+	@echo "... src/core/SensorReading.s"
+	@echo "... src/core/SensorType.o"
+	@echo "... src/core/SensorType.i"
+	@echo "... src/core/SensorType.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

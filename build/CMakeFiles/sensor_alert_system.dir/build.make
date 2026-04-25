@@ -86,18 +86,66 @@ CMakeFiles/sensor_alert_system.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/main.cpp -o CMakeFiles/sensor_alert_system.dir/src/main.cpp.s
 
+CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o: CMakeFiles/sensor_alert_system.dir/flags.make
+CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o: /home/yagizhan/projects/sensor-alert-system/src/core/SensorType.cpp
+CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o -MF CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o.d -o CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o -c /home/yagizhan/projects/sensor-alert-system/src/core/SensorType.cpp
+
+CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yagizhan/projects/sensor-alert-system/src/core/SensorType.cpp > CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.i
+
+CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/core/SensorType.cpp -o CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.s
+
+CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o: CMakeFiles/sensor_alert_system.dir/flags.make
+CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o: /home/yagizhan/projects/sensor-alert-system/src/core/AlertSeverity.cpp
+CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o -MF CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o.d -o CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o -c /home/yagizhan/projects/sensor-alert-system/src/core/AlertSeverity.cpp
+
+CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yagizhan/projects/sensor-alert-system/src/core/AlertSeverity.cpp > CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.i
+
+CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/core/AlertSeverity.cpp -o CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.s
+
+CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o: CMakeFiles/sensor_alert_system.dir/flags.make
+CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o: /home/yagizhan/projects/sensor-alert-system/src/core/SensorReading.cpp
+CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o -MF CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o.d -o CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o -c /home/yagizhan/projects/sensor-alert-system/src/core/SensorReading.cpp
+
+CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yagizhan/projects/sensor-alert-system/src/core/SensorReading.cpp > CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.i
+
+CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/core/SensorReading.cpp -o CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s
+
 # Object files for target sensor_alert_system
 sensor_alert_system_OBJECTS = \
-"CMakeFiles/sensor_alert_system.dir/src/main.cpp.o"
+"CMakeFiles/sensor_alert_system.dir/src/main.cpp.o" \
+"CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o" \
+"CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o" \
+"CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o"
 
 # External object files for target sensor_alert_system
 sensor_alert_system_EXTERNAL_OBJECTS =
 
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/main.cpp.o
+sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o
+sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o
+sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/build.make
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sensor_alert_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sensor_alert_system"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_alert_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,4 +8,12 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(sensor_alert_system
     src/main.cpp
+    src/core/SensorType.cpp
+    src/core/AlertSeverity.cpp
+    src/core/SensorReading.cpp
+)
+
+target_include_directories(sensor_alert_system
+    PRIVATE
+        include
 )
