@@ -1,5 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sensor_alert_system.dir/link.d"
+  "CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o"
+  "CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o.d"
+  "CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o"
+  "CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o.d"
+  "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o"
+  "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o.d"
   "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o"
   "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o.d"
   "sensor_alert_system"

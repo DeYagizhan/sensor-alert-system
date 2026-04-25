@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sensor_alert_system.dir/link.d CMakeFiles/sensor_alert_system.dir/src/main.cpp.o -o sensor_alert_system
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sensor_alert_system.dir/link.d CMakeFiles/sensor_alert_system.dir/src/main.cpp.o CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o -o sensor_alert_system
