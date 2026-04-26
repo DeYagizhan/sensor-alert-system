@@ -11,7 +11,7 @@ The system will read simulated sensor data, evaluate threshold rules, generate a
 
 ##Technologies
 
-- C++!7
+- C++17
 - Linux
 - Cmake
 - Git / GitHub

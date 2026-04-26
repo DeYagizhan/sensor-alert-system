@@ -6,6 +6,8 @@ sensor_alert_system: \
   CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o \
   CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o \
   CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o \
+  CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o \
+  CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -48,6 +50,10 @@ CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o:
 CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o:
 
 CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o:
+
+CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o:
+
+CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 

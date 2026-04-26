@@ -11,7 +11,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yagizhan/projects/sensor-alert-system/src/core/AlertSeverity.cpp" "CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o" "gcc" "CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o.d"
   "/home/yagizhan/projects/sensor-alert-system/src/core/SensorReading.cpp" "CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o" "gcc" "CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o.d"
   "/home/yagizhan/projects/sensor-alert-system/src/core/SensorType.cpp" "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o" "gcc" "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o.d"
+  "/home/yagizhan/projects/sensor-alert-system/src/core/ThresholdRule.cpp" "CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o" "gcc" "CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o.d"
   "/home/yagizhan/projects/sensor-alert-system/src/main.cpp" "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o" "gcc" "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o.d"
+  "/home/yagizhan/projects/sensor-alert-system/src/processing/ThresholdEvaluator.cpp" "CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o" "gcc" "CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o.d"
   "" "sensor_alert_system" "gcc" "CMakeFiles/sensor_alert_system.dir/link.d"
   )
 

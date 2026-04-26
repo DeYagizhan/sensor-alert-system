@@ -201,6 +201,30 @@ src/core/SensorType.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.s
 .PHONY : src/core/SensorType.cpp.s
 
+src/core/ThresholdRule.o: src/core/ThresholdRule.cpp.o
+.PHONY : src/core/ThresholdRule.o
+
+# target to build an object file
+src/core/ThresholdRule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o
+.PHONY : src/core/ThresholdRule.cpp.o
+
+src/core/ThresholdRule.i: src/core/ThresholdRule.cpp.i
+.PHONY : src/core/ThresholdRule.i
+
+# target to preprocess a source file
+src/core/ThresholdRule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.i
+.PHONY : src/core/ThresholdRule.cpp.i
+
+src/core/ThresholdRule.s: src/core/ThresholdRule.cpp.s
+.PHONY : src/core/ThresholdRule.s
+
+# target to generate assembly for a file
+src/core/ThresholdRule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.s
+.PHONY : src/core/ThresholdRule.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -225,6 +249,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/processing/ThresholdEvaluator.o: src/processing/ThresholdEvaluator.cpp.o
+.PHONY : src/processing/ThresholdEvaluator.o
+
+# target to build an object file
+src/processing/ThresholdEvaluator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o
+.PHONY : src/processing/ThresholdEvaluator.cpp.o
+
+src/processing/ThresholdEvaluator.i: src/processing/ThresholdEvaluator.cpp.i
+.PHONY : src/processing/ThresholdEvaluator.i
+
+# target to preprocess a source file
+src/processing/ThresholdEvaluator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.i
+.PHONY : src/processing/ThresholdEvaluator.cpp.i
+
+src/processing/ThresholdEvaluator.s: src/processing/ThresholdEvaluator.cpp.s
+.PHONY : src/processing/ThresholdEvaluator.s
+
+# target to generate assembly for a file
+src/processing/ThresholdEvaluator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_alert_system.dir/build.make CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.s
+.PHONY : src/processing/ThresholdEvaluator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,9 +291,15 @@ help:
 	@echo "... src/core/SensorType.o"
 	@echo "... src/core/SensorType.i"
 	@echo "... src/core/SensorType.s"
+	@echo "... src/core/ThresholdRule.o"
+	@echo "... src/core/ThresholdRule.i"
+	@echo "... src/core/ThresholdRule.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/processing/ThresholdEvaluator.o"
+	@echo "... src/processing/ThresholdEvaluator.i"
+	@echo "... src/processing/ThresholdEvaluator.s"
 .PHONY : help
 
 
