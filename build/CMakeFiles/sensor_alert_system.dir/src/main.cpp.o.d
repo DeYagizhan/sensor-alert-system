@@ -161,5 +161,8 @@ CMakeFiles/sensor_alert_system.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
  /usr/include/c++/15/bits/istream.tcc \
+ /home/yagizhan/projects/sensor-alert-system/include/sensor_alert/core/AlertSeverity.hpp \
  /home/yagizhan/projects/sensor-alert-system/include/sensor_alert/core/SensorReading.hpp \
- /home/yagizhan/projects/sensor-alert-system/include/sensor_alert/core/SensorType.hpp
+ /home/yagizhan/projects/sensor-alert-system/include/sensor_alert/core/SensorType.hpp \
+ /home/yagizhan/projects/sensor-alert-system/include/sensor_alert/core/ThresholdRule.hpp \
+ /home/yagizhan/projects/sensor-alert-system/include/sensor_alert/processing/ThresholdEvaluator.hpp

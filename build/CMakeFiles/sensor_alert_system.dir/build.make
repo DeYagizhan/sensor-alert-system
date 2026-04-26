@@ -128,12 +128,42 @@ CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/core/SensorReading.cpp -o CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.s
 
+CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o: CMakeFiles/sensor_alert_system.dir/flags.make
+CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o: /home/yagizhan/projects/sensor-alert-system/src/core/ThresholdRule.cpp
+CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o -MF CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o.d -o CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o -c /home/yagizhan/projects/sensor-alert-system/src/core/ThresholdRule.cpp
+
+CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yagizhan/projects/sensor-alert-system/src/core/ThresholdRule.cpp > CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.i
+
+CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/core/ThresholdRule.cpp -o CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.s
+
+CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o: CMakeFiles/sensor_alert_system.dir/flags.make
+CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o: /home/yagizhan/projects/sensor-alert-system/src/processing/ThresholdEvaluator.cpp
+CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o -MF CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o.d -o CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o -c /home/yagizhan/projects/sensor-alert-system/src/processing/ThresholdEvaluator.cpp
+
+CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yagizhan/projects/sensor-alert-system/src/processing/ThresholdEvaluator.cpp > CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.i
+
+CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yagizhan/projects/sensor-alert-system/src/processing/ThresholdEvaluator.cpp -o CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.s
+
 # Object files for target sensor_alert_system
 sensor_alert_system_OBJECTS = \
 "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o" \
 "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o" \
 "CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o" \
-"CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o"
+"CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o" \
+"CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o" \
+"CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o"
 
 # External object files for target sensor_alert_system
 sensor_alert_system_EXTERNAL_OBJECTS =
@@ -142,10 +172,12 @@ sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/main.cpp.o
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/AlertSeverity.cpp.o
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o
+sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o
+sensor_alert_system: CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/build.make
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/compiler_depend.ts
 sensor_alert_system: CMakeFiles/sensor_alert_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sensor_alert_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yagizhan/projects/sensor-alert-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sensor_alert_system"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_alert_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

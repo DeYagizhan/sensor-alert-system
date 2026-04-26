@@ -6,8 +6,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/sensor_alert_system.dir/src/core/SensorReading.cpp.o.d"
   "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o"
   "CMakeFiles/sensor_alert_system.dir/src/core/SensorType.cpp.o.d"
+  "CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o"
+  "CMakeFiles/sensor_alert_system.dir/src/core/ThresholdRule.cpp.o.d"
   "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o"
   "CMakeFiles/sensor_alert_system.dir/src/main.cpp.o.d"
+  "CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o"
+  "CMakeFiles/sensor_alert_system.dir/src/processing/ThresholdEvaluator.cpp.o.d"
   "sensor_alert_system"
   "sensor_alert_system.pdb"
 )
