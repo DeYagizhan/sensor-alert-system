@@ -12,7 +12,9 @@ add_executable(sensor_alert_system
     src/core/AlertSeverity.cpp
     src/core/SensorReading.cpp
     src/core/ThresholdRule.cpp
+    src/core/Alert.cpp
     src/processing/ThresholdEvaluator.cpp
+    src/processing/AlertManager.cpp
 )
 
 target_include_directories(sensor_alert_system
