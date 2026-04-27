@@ -7,27 +7,29 @@
 #include "/home/yagizhan/projects/sensor-alert-system/include/sensor_alert/core/ThresholdRule.hpp"
 #include "/home/yagizhan/projects/sensor-alert-system/include/sensor_alert/processing/AlertManager.hpp"
 #include "/home/yagizhan/projects/sensor-alert-system/include/sensor_alert/processing/ThresholdEvaluator.hpp"
+#include "/home/yagizhan/projects/sensor-alert-system/include/sensor_alert/processing/SensorManager.hpp"
 
 int main(){
+    sensor_alert::SensorManager sensorManager;
+    
+    sensorManager.addThresholdRule(
+        sensor_alert::SensorType::Temperature,
+        sensor_alert::ThresholdRule(
+            0.0, //warning min
+            70.0, //warning max
+            -10.0, //critical min
+            85.0 //critical max     
+        )
+    );
+    
     sensor_alert::SensorReading reading(
         "2026-04-24T10:00:00",
         "TEMP_01",
         sensor_alert::SensorType::Temperature,
-        82.0
+        90.0
     );
 
-    sensor_alert::ThresholdRule temperatureRule(
-        0.0, //warning min
-        70.0, //warning max
-        -10.0, //critical min
-        85.0 //critical max
-    );
-
-    sensor_alert::ThresholdEvaluator evaluator;
-    sensor_alert::AlertSeverity severity = evaluator.evaluate(reading, temperatureRule);
-
-    sensor_alert::AlertManager alertManager;
-    alertManager.processReading(reading, severity);
+    const sensor_alert::AlertSeverity severity = sensorManager.processReading(reading);
 
     std::cout << "Sensor Data Processing and Alert Managment System" << std::endl;
     std::cout << "Developers: Yagizhan Demir - Burak Dinarli" << std:: endl;
@@ -41,7 +43,11 @@ int main(){
     std::cout << "Severity  : " << sensor_alert::toString(severity) << std::endl << std::endl;
 
     std::cout << "------------------------------------------------------" << std::endl << std::endl;
-    std::cout << "Alert Count: " << alertManager.getAlerts().size() << std::endl;
+
+    const sensor_alert::AlertManager& alertManager = sensorManager.getAlertManager();
+
+    std::cout << "Total Reading: " << sensorManager.getReadings().size() << std::endl;
+    std::cout << "Alert Count  : " << alertManager.getAlerts().size() << std::endl;
 
     if (alertManager.hasAlerts()) {
         const sensor_alert::Alert& lastAlert = alertManager.getLastAlert();
@@ -57,4 +63,3 @@ int main(){
 
     return 0;
 }
-

@@ -15,6 +15,7 @@ add_executable(sensor_alert_system
     src/core/Alert.cpp
     src/processing/ThresholdEvaluator.cpp
     src/processing/AlertManager.cpp
+    src/processing/SensorManager.cpp
 )
 
 target_include_directories(sensor_alert_system
