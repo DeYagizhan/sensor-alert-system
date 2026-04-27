@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/yagizhan/projects/sensor-alert-system/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
